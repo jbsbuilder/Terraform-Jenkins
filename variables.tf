@@ -24,7 +24,7 @@ variable "cidr_private_subnet" {
 }
 
 #change the name of the variable globaly after all code is copied
-variable "eu_availability_zone" {
+variable "us_availability_zone" {
   type        = list(string)
   description = "Availability Zones"
 }
